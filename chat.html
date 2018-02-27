@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+
+
+<p id="demo"></p>
+
+<script>
+function typo() {
+    var currentText = document.getElementById("demo").innerHTML;
+    var x = '<p>'+document.getElementById("myText").value+'</p>';
+    document.getElementById("demo").innerHTML = currentText + x;
+ 
+}
+
+</script>
+<br> <br>
+<input type="text" id="myText" value="">
+<button onclick="typo()">send</button>
+
+
+
+</body>
+</html>
